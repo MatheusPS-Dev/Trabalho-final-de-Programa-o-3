@@ -1,0 +1,20 @@
+# Ambiente virtual
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Banco de dados local (cada ambiente cria o seu com "migrate")
+db.sqlite3
+db.sqlite3-journal
+
+# Arquivos estáticos gerados pelo "collectstatic"
+staticfiles/
+
+# Variáveis de ambiente e IDEs
+.env
+.vscode/
+.claude/
+.idea/
