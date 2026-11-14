@@ -1,0 +1,8 @@
+<span class="capa capa--{{ tamanho|default:'media' }} tom-{{ livro.genero.tom }}" aria-hidden="true">
+  {% if tamanho == "mini" %}
+    <span class="capa__inicial">{{ livro.titulo|first }}</span>
+  {% else %}
+    <span class="capa__titulo">{{ livro.titulo }}</span>
+    <span class="capa__autor">{{ livro.autor }}</span>
+  {% endif %}
+</span>
